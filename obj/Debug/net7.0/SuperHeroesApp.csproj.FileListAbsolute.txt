@@ -1,0 +1,15 @@
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/bin/Debug/net7.0/SuperHeroesApp
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/bin/Debug/net7.0/SuperHeroesApp.deps.json
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/bin/Debug/net7.0/SuperHeroesApp.runtimeconfig.json
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/bin/Debug/net7.0/SuperHeroesApp.dll
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/bin/Debug/net7.0/SuperHeroesApp.pdb
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.csproj.AssemblyReference.cache
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.AssemblyInfoInputs.cache
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.AssemblyInfo.cs
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.csproj.CoreCompileInputs.cache
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.dll
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/refint/SuperHeroesApp.dll
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.pdb
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/SuperHeroesApp.genruntimeconfig.cache
+/home/jesus/Documents/personalProjects/C#Poo/SuperHeroesApp/obj/Debug/net7.0/ref/SuperHeroesApp.dll
