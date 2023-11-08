@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace SuperHeroesApp.Models
 {
 
-    class SuperHeroe
+    class SuperHeroe : Heroe
     {
         private string _Nombre;
         public int Id;
-        public string Nombre
+        public override string Nombre
         {
             get 
             {
@@ -52,6 +52,15 @@ namespace SuperHeroesApp.Models
                 sb.AppendLine($"{NombreEIdentidadSecreta} está usando el super poder {item.Nombre}");
             }
             return sb.ToString();
+        }
+        public override string SalvarElMundo()
+        {
+            return $"El {NombreEIdentidadSecreta} ha salvado el mundo";
+        }
+        public override string SalvarLaTierra()
+        {
+            //return base.SalvarLaTierra();
+            return $"{NombreEIdentidadSecreta} ha salvado la tierra";
         }
     }
 }

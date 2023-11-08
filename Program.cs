@@ -14,6 +14,10 @@ var superFuerza = new SuperPoder();
 superFuerza.Nombre = "SuperFuerza";
 superFuerza.Nivel = NivelPoder.NivelTres;
 
+var regeneracion = new SuperPoder();
+regeneracion.Nombre = "Regeneracion";
+regeneracion.Nivel = NivelPoder.NivelTres;
+
 var superman = new SuperHeroe();
 superman.Id = 1;
 superman.Nombre = "      Superman     ";
@@ -27,6 +31,10 @@ poderesSuperman.Add(superFuerza);
 superman.SuperPoderes = poderesSuperman;
 string resultSuperPoderes = superman.UsarSuperPoderes();
 Console.WriteLine(resultSuperPoderes); 
+string resultSalvarMundo = superman.SalvarElMundo();
+Console.WriteLine(resultSalvarMundo);
+string resultSalvarTierra = superman.SalvarLaTierra();
+Console.WriteLine(resultSalvarTierra);
 
 var spiderman = new SuperHeroe();
 spiderman.Id = 2;
@@ -38,6 +46,22 @@ spiderman.PuedeVolar = false;
 List<SuperPoder> poderesSpiderman = new List<SuperPoder>();
 poderesSpiderman.Add(superFuerza);
 spiderman.SuperPoderes = poderesSpiderman;
+
+var wolverine = new AntiHeroe();
+wolverine.Id = 5;
+wolverine.Nombre = "Wolverine";
+wolverine.IdentidadSecreta = "Huge Jackman";
+wolverine.PuedeVolar = false;
+
+List<SuperPoder> poderesWolverine = new List<SuperPoder>();
+poderesWolverine.Add(regeneracion);
+poderesWolverine.Add(superFuerza);
+wolverine.SuperPoderes = poderesWolverine;
+string resultPoderesWolverine = wolverine.UsarSuperPoderes();
+Console.WriteLine(resultPoderesWolverine); 
+
+string accionAntiHeroe = wolverine.RealizarAccionDeAntiHeroe("Ataca a la policia");
+Console.WriteLine(accionAntiHeroe);
 
 enum NivelPoder
 {
